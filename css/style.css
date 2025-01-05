@@ -627,7 +627,6 @@ img {
 }
 
 .footer-svg {
-    background: url(../img/wave.svg)repeat-y ;
     background-color: #273036;
     position: relative;
     top: 0;
@@ -641,6 +640,5 @@ img {
     top: 10px;
     left: 0;
     right: 0;
-    background: url(../img/wave.png)repeat-y ;
     z-index: -1;
 }
