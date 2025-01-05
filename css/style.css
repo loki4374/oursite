@@ -24,6 +24,7 @@ html {
 body {
     background-color: #262626;
     scroll-behavior: smooth;
+    overflow:hidden;
 }
 .orange {
     color: var(--primary);
@@ -185,7 +186,9 @@ p , span, .testimonial-text {
         transition: .5s;
         opacity: 0;
     }
-
+    .navbar-light .navbar-toggler {
+        box-shadow:none;
+    }
     .navbar .nav-item:hover .dropdown-menu {
         transform: rotateX(0deg);
         visibility: visible;
