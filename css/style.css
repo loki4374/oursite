@@ -24,7 +24,7 @@ html {
 body {
     background-color: #262626;
     scroll-behavior: smooth;
-    overflow-X:hidden;
+    overflow-x: hidden;
 }
 .orange {
     color: var(--primary);
