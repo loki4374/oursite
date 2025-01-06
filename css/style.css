@@ -24,7 +24,7 @@ html {
 body {
     background-color: #262626;
     scroll-behavior: smooth;
-    overflow-x: hidden;
+    overflow-x: hidden !important;
 }
 .orange {
     color: var(--primary);
@@ -163,6 +163,10 @@ p , span, .testimonial-text {
 .navbar .navbar-nav .nav-link.active {
     color: var(--primary);
 }
+
+.navbar-light .navbar-toggler {
+        box-shadow:none !important;
+    }
 
 @media (max-width: 991.98px) {
     .navbar .navbar-nav {
